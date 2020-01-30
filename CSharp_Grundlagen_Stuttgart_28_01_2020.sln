@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul004_OOP_Console", "Mod
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul004_OOP_Lib", "Modul004_OOP_Lib\Modul004_OOP_Lib.csproj", "{C63F2CCC-DB74-4221-B9D6-D858DF4D8773}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul004_Polymorphie_Console", "Modul004_Polymorphie_Console\Modul004_Polymorphie_Console.csproj", "{89D72603-6FF0-47A7-89C9-02CB7E54C2BA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{C63F2CCC-DB74-4221-B9D6-D858DF4D8773}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C63F2CCC-DB74-4221-B9D6-D858DF4D8773}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C63F2CCC-DB74-4221-B9D6-D858DF4D8773}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89D72603-6FF0-47A7-89C9-02CB7E54C2BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89D72603-6FF0-47A7-89C9-02CB7E54C2BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89D72603-6FF0-47A7-89C9-02CB7E54C2BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89D72603-6FF0-47A7-89C9-02CB7E54C2BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

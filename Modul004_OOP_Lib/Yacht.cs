@@ -10,6 +10,12 @@ namespace Modul004_OOP_Lib
     {
         public bool Pool { get; set; }
 
+        public Yacht(string marke, int baujahr, double maxGeschwindigkeit, SchiffsTreibstoff treibstoff, double tiefgang, bool pool)
+            : base(marke, baujahr, maxGeschwindigkeit, treibstoff, tiefgang)
+        {
+
+        }
+
         public Yacht(Schiff schiff, bool pool)
             : base(schiff.Marke, schiff.Baujahr, schiff.MaxGeschwindigkeit, schiff.Treibstoff, schiff.Tiefgang)
         {

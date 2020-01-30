@@ -13,7 +13,7 @@ namespace Modul004_OOP_Lib
         private double aktGeschwindigkeit;
         private double maxGeschwindigkeit;
 
-        //Defaultkonstruktor
+
 
         // ctor + tab + tab = leerer Default Konstruktor
         public Fahrzeug()
@@ -27,7 +27,7 @@ namespace Modul004_OOP_Lib
         public Fahrzeug(int baujahr, string marke, double maxGeschw)
             : this()
         {
-            
+
             this.Baujahr = baujahr;
             this.Marke = marke;
             this.MaxGeschwindigkeit = maxGeschw;
@@ -43,7 +43,7 @@ namespace Modul004_OOP_Lib
         #region Properties
         //Auto Property -> Variable wird unsichtbar im Hintergrund beim Kompilieren angelegt
         // In einer Auto-Property ist es nicht möglich eine Validierung einzubauen, wird für Daten-Container gerne verwendet...z.b .NET Framework Poco-Onjekte
-        public string Farbe { get; set; }
+        public virtual string Farbe { get; set; }
         public bool MotorLaeuft { get; set; }
         public int Baujahr { get => baujahr; set => baujahr = value; }
 
@@ -126,7 +126,7 @@ namespace Modul004_OOP_Lib
         #region Static-Methoden
         public static int AnzahlErstellterFahrzeuge { get; private set; } = 0;
 
-       
+
 
         public static string ZeigeAnzahlFahrzeuge()
         {
