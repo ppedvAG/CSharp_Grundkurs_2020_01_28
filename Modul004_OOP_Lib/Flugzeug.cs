@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Modul004_OOP_Lib
 {
-    public class Flugzeug : Fahrzeug
+    public class Flugzeug : Fahrzeug, IBewegbar
     {
         private double spannweite;
         private double maxFlughoehe;
@@ -39,6 +39,13 @@ namespace Modul004_OOP_Lib
             {
                 farbe = value;
             }
+        }
+
+        public int RaederanzahlZumLenken { get; set; }
+
+        public void Bewegen()
+        {
+            Console.WriteLine($"Raederanzahl die zum lenken benötigt werden: {RaederanzahlZumLenken}");
         }
 
     }

@@ -21,6 +21,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul004_OOP_Lib", "Modul00
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul004_Polymorphie_Console", "Modul004_Polymorphie_Console\Modul004_Polymorphie_Console.csproj", "{89D72603-6FF0-47A7-89C9-02CB7E54C2BA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtentionThema_ADONet", "ExtentionThema_ADONet\ExtentionThema_ADONet.csproj", "{30028CCB-F75D-4C3A-BF62-E7EBA17E1CF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtentionThema_EntityFramework", "ExtentionThema_EntityFramework\ExtentionThema_EntityFramework.csproj", "{1960F2B3-40D6-45A7-A66C-3B7FFB98BC4F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +67,14 @@ Global
 		{89D72603-6FF0-47A7-89C9-02CB7E54C2BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{89D72603-6FF0-47A7-89C9-02CB7E54C2BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{89D72603-6FF0-47A7-89C9-02CB7E54C2BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30028CCB-F75D-4C3A-BF62-E7EBA17E1CF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30028CCB-F75D-4C3A-BF62-E7EBA17E1CF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30028CCB-F75D-4C3A-BF62-E7EBA17E1CF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30028CCB-F75D-4C3A-BF62-E7EBA17E1CF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1960F2B3-40D6-45A7-A66C-3B7FFB98BC4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1960F2B3-40D6-45A7-A66C-3B7FFB98BC4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1960F2B3-40D6-45A7-A66C-3B7FFB98BC4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1960F2B3-40D6-45A7-A66C-3B7FFB98BC4F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

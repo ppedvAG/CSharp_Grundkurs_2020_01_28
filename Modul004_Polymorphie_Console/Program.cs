@@ -21,6 +21,7 @@ namespace Modul004_Polymorphie_Console
             PKW pkw2 = new PKW("Trappi", 1955, 80, "Mausegrau", 4, 4);
             PKW pkw3 = new PKW("Mercedez", 2020, 260, "Schwarz", 4, 4);
 
+
             Schiff schiff = new Schiff("Gorck Fork", 1867, 15, Schiff.SchiffsTreibstoff.Wind, 5);
             Yacht yacht = new Yacht("Jeanneau", 1999, 18, Schiff.SchiffsTreibstoff.Diesel, 2, true);
             Yacht yacht1 = new Yacht("Black Pearl", 1788, 25, Schiff.SchiffsTreibstoff.Wind, 2, false);
@@ -37,6 +38,9 @@ namespace Modul004_Polymorphie_Console
             dagobertsGarage.ParkeFahrzeugInGarage(yacht1);
             //Zeige mir mein Inventar der Garage an
             dagobertsGarage.WelcheFahrzeugeSindInDerGarage();
+            dagobertsGarage.DoppeleAlleFahrzeugeDieEsKoennen();
+            dagobertsGarage.WelcheFahrzeugeSindInDerGarage();
+
             Console.ReadKey();
             #endregion
 

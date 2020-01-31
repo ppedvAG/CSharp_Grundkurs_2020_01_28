@@ -26,6 +26,27 @@ namespace Modul004_OOP_Lib
             FahrzeugListe.Add(fahrzeug);
         }
 
+        public void DoppeleAlleFahrzeugeDieEsKoennen()
+        {
+            List<Fahrzeug> kopierteFahrzeuge = new List<Fahrzeug>();
+
+            foreach (Fahrzeug currentFahrzeug in FahrzeugListe)
+            {
+                if (currentFahrzeug is ICloneable)
+                {
+                    ICloneable clonbareFahrzeug = (ICloneable)currentFahrzeug;
+                    
+                    Fahrzeug clonedVehicle = (Fahrzeug)clonbareFahrzeug.Clone();
+                    clonedVehicle.Farbe = "gelb";
+                    kopierteFahrzeuge.Add(clonedVehicle);
+                }
+            }
+            foreach (Fahrzeug currentFahrzeug in kopierteFahrzeuge)
+                fahrzeugListe.Add(currentFahrzeug);
+
+            FahrzeugListe.AddRange(kopierteFahrzeuge);
+        }
+
         public void WelcheFahrzeugeSindInDerGarage()
         {
             int pkwCounter = 0;

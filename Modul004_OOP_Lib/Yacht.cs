@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Modul004_OOP_Lib
 {
-    public class Yacht : Schiff
+    public class Yacht : Schiff, ICloneable
     {
         public bool Pool { get; set; }
 
@@ -22,5 +22,9 @@ namespace Modul004_OOP_Lib
             this.Pool = pool;
         }
 
+        public object Clone()
+        {
+            return new Yacht(this.Marke, this.Baujahr, this.MaxGeschwindigkeit, this.Treibstoff, this.Tiefgang, this.Pool);
+        }
     }
 }
